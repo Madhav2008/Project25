@@ -16,14 +16,13 @@ class Paper {
     display() {
 
         var pos = this.body.position;
-
         push();
         translate(pos.x, pos.y);
         rectMode(CENTER);
         strokeWeight(3);
         fill(255, 0, 255);
         imageMode(CENTER);
-        image(this.image, 0, 0, this.r, this.r);
+        image(this.image, 0, 0, this.r);
         pop();
     }
 }
