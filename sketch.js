@@ -30,7 +30,7 @@ function draw() {
 
     drawSprites();
     textSize(80);
-    fill("black");
+    fill("magenta");
     strokeWeight(10)
     stroke("yellow");
     text("CRUMPLED BALLS", 400, 100);
