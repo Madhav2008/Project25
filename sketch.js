@@ -28,7 +28,6 @@ function draw() {
     ball.display();
     ground.display();
 
-    drawSprites();
     textSize(80);
     fill("magenta");
     strokeWeight(10)
